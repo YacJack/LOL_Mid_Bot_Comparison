@@ -11,8 +11,20 @@ In this project, we studied the effectiveness of spice challenges in building te
 ---
 
 ## Cleaning and EDA
-
+### Univariate Analysis
 <iframe src="assets/kills.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/golddiffat15.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/DR.html" width=800 height=600 frameBorder=0></iframe>
+
+### Bivariate Analysis
+<iframe src="assets/goldvsxp.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/posvsgold.html" width=800 height=600 frameBorder=0></iframe>
+
+
+### Interesting Aggregates
 
 ---
 
