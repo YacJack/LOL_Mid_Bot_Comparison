@@ -66,13 +66,18 @@ We realize there's some columns includes missing value that are **not missing at
 ---
 
 To check the Missingness dependency, we pick the one column with non-trivil missingness("golddiffat15") and use permutation test to visualize result.
+
+
 <iframe src="assets/dependmissing.html" width=800 height=600 frameBorder=0></iframe>
+
 Null Hypothesis: Missingness of "golddiffat15" does not depend on url
 Alternative Hypothesis: Missingness of "golddiffat15" depends on url
 In this testing, we analyzed if url could be a depending column of the missingness of "golddiffat15".
 We observed a p-value of 1 (> 0.05), which is significantly large. Thus, we fail to reject the null hypothesis and conclude that missingness of "golddiffat15" depend on url.
 
 <iframe src="assets/notdependmissing.html" width=800 height=600 frameBorder=0></iframe>
+
+
 Null Hypothesis: Missingness of "golddiffat15" does not depend on position
 Alternative Hypothesis: Missingness of "golddiffat15" depends on position
 In this testing, we analyzed if position could be a depending column of the missingness of "golddiffat15".
