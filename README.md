@@ -111,7 +111,7 @@ In addition, in order to prevent kills that do not match damage circumstances, a
 
 ---
 
-==Null hypothesis: Bot lane players have the same DR (Dominance Ratio) and DPG (Damage to Champion per Gold )as the Mid lane players==
+==Null hypothesis: Bot lane players have the same DR (Dominance Ratio) and DPG (Damage to Champion per Gold ) as the Mid lane players==
 
 ==μbot = μmid==
 
