@@ -30,6 +30,7 @@ As one of the tests to see if the bot lane is the most Carry route, we decided t
 This is a visual presentation for the "goldspent" variable. We can observe that the distribution of gold spent is approximately normal but slightly skewed to the right.
 This makes sense because few players could spend more than 40k gold in a game.
 
+
 <iframe src="assets/damagetochampions.html" width=800 height=600 frameBorder=0></iframe>
 This is a visual presentation for the "damage to champions" varaible. We can observe that the distribution of damage to champions is also approximately normal and skewed to the right.
 This makes sense because extremely high damage is not normal in League of Legends.
@@ -38,6 +39,7 @@ This makes sense because extremely high damage is not normal in League of Legend
 <iframe src="assets/goldspentvsdamage.html" width=800 height=600 frameBorder=0></iframe>
 From gold vs damage to champions scatter plot, we observe a clear positive relationship between them. 
 Though the relationship is not too strong, it makes sense that with more gold, players tend to deal more damage.
+
 
 <iframe src="assets/positionvsdamage.html" width=800 height=600 frameBorder=0></iframe>
 From the box plot of mid and bot players' position vs damage to champions, we observe a higher median, max, min, and box range in bot lane players.
