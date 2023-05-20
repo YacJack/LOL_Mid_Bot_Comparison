@@ -43,6 +43,7 @@ From the box plot of mid and bot players' position vs damage to champions, we ob
 Thus, we might consider using "bot lane player carries more" as our alternative hypothesis.
 
 ### Interesting Aggregates
+
 | position   |   [0, 5) |   [5, 10) |   [10, 15) |   [15, 20) |   [20, 25) |   [25, 30) |
 |:-----------|---------:|----------:|-----------:|-----------:|-----------:|-----------:|
 | bot        |  1.58313 |   6.46181 |    12.1394 |    16.6667 |    21.7143 |       26.5 |
@@ -67,7 +68,6 @@ We realize there's some columns includes missing value that are **not missing at
 
 To check the Missingness dependency, we pick the one column with non-trivil missingness("golddiffat15") and use permutation test to visualize result.
 
-
 <iframe src="assets/dependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
 Null Hypothesis: Missingness of "golddiffat15" does not depend on url
@@ -76,7 +76,6 @@ In this testing, we analyzed if url could be a depending column of the missingne
 We observed a p-value of 1 (> 0.05), which is significantly large. Thus, we fail to reject the null hypothesis and conclude that missingness of "golddiffat15" depend on url.
 
 <iframe src="assets/notdependmissing.html" width=800 height=600 frameBorder=0></iframe>
-
 
 Null Hypothesis: Missingness of "golddiffat15" does not depend on position
 Alternative Hypothesis: Missingness of "golddiffat15" depends on position
