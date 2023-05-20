@@ -65,5 +65,22 @@ print(counts[['Quarter', 'Count']].head().to_markdown(index=True))
 
 ## Hypothesis Testing
 
+In order to prevent too many assists from AOE, we decided to use DR (dominated ratio 2Kills + 1Assists/ 3Deaths) to calculate the performance of each lane. In addition, in order to prevent kills that do not match damage circumstances, and economic gaps make a difference, we will also compare DPG (Damage to hero/Money spent)
 
 ---
+
+Our null hypothesis is: Bot lane players have the same DR (Dominance Ratio) and DPG (Damage to Champion per Gold )as the Mid lane players
+μbot = μmid
+Alternative: Bot lane players have better DR than the Mid lane players
+μbot > μmid
+
+Test statistics: TVD
+
+Significance level: 0.05
+
+---
+
+
+---
+#Conclusion#
+From both cases, From observed data and the permutation distribution we found significant level are below 0.05 which means difference in DR and DPG between mid and bot lane are not likely to occured by chance. It gives potential result that bot lane usually deal more damage and better performance than mid lane.
