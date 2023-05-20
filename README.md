@@ -25,17 +25,14 @@ As one of the tests to see if the bot lane is the most Carry route, we decided t
 
 ## **Cleaning and EDA**
 ### Univariate Analysis
-<iframe src="assets/kills.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/goldspent.html" width=800 height=600 frameBorder=0></iframe>
 
-<iframe src="assets/golddiffat15.html" width=800 height=600 frameBorder=0></iframe>
-
-<iframe src="assets/DR.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/damagetochampions.html" width=800 height=600 frameBorder=0></iframe>
 
 ### Bivariate Analysis
-<iframe src="assets/goldvsxp.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/goldspentvsdamage.html" width=800 height=600 frameBorder=0></iframe>
 
-<iframe src="assets/posvsgold.html" width=800 height=600 frameBorder=0></iframe>
-
+<iframe src="assets/positionvsdamage.html" width=800 height=600 frameBorder=0></iframe>
 
 ### Interesting Aggregates
 
