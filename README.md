@@ -80,7 +80,7 @@ The data is extracted from Riot's database [Oracle’s Elixir](https://oraclesel
 
 ---
 
-To check the Missingness dependency, we pick the one column with non-trivil missingness("golddiffat15") and use permutation test to visualize result.
+#### To check the Missingness dependency, we pick the one column with non-trivil missingness("golddiffat15") and use permutation test to visualize result.
 
 <iframe src="assets/dependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
