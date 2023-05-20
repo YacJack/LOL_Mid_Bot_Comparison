@@ -35,7 +35,16 @@ As one of the tests to see if the bot lane is the most Carry route, we decided t
 <iframe src="assets/positionvsdamage.html" width=800 height=600 frameBorder=0></iframe>
 
 ### Interesting Aggregates
+| position   |   [0, 5) |   [5, 10) |   [10, 15) |   [15, 20) |   [20, 25) |   [25, 30) |
+|:-----------|---------:|----------:|-----------:|-----------:|-----------:|-----------:|
+| bot        |  1.58313 |   6.46181 |    12.1394 |    16.6667 |    21.7143 |       26.5 |
+| mid        |  1.49315 |   6.56433 |    12.1958 |    16.8605 |    21.2308 |       26.5 |
 
+
+| position   |   [0, 5) |
+|:-----------|---------:|
+| bot        |  1.30037 |
+| mid        |  1.33882 |
 ---
 
 ## **Assessment of Missingness**
