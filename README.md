@@ -141,4 +141,4 @@ From observed data and the permutation distribution we found the p-value is 0.02
 However, for damage per gold, we observed a p-value of 0.076, which is greater than the significance level 0.05, and we fail to reject the null hypothesis in this case and conclude that mid lane players are likely to have the same damage per gold as the bot lane players.
 
 **By just looking at the scoreboard of a player (Kills, Assists), we might observe that bot lane players carry more, as we also carried out a testing on DR. But, in fact, for every gold the two positions earn, the damages they could produce are likely to be similar.**
-**Thus, we conclude that bot lane players do carry more, with their potential better kills and deaths in a game; also, we do not conclude that the "carry" is showed by damage.**
+**Thus, we conclude that bot lane players do carry more, with their potential better kills and deaths in a game; however, this carry does not necessarily indicate that bot lane players carry more in damage wise.**
