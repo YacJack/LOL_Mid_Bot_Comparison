@@ -54,6 +54,7 @@ Thus, we might consider using "bot lane player carries more" as our alternative 
 
 This is a pivot table for position and DR. From this table, we do not observe a significant difference between bot and mid lane players.
 
+
 | position   |   [0, 5) |
 |:-----------|---------:|
 | bot        |  1.30037 |
@@ -77,6 +78,7 @@ Null Hypothesis: Missingness of "golddiffat15" does not depend on url
 Alternative Hypothesis: Missingness of "golddiffat15" depends on url
 In this testing, we analyzed if url could be a depending column of the missingness of "golddiffat15".
 We observed a p-value of 1 (> 0.05), which is significantly large. Thus, we fail to reject the null hypothesis and conclude that missingness of "golddiffat15" depend on url.
+
 
 <iframe src="assets/notdependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -104,8 +106,12 @@ Significance level: 0.05
 
 ---
 <iframe src="assets/hyp1.html" width=800 height=600 frameBorder=0></iframe>
+This is the visual presentation for the hypothesis testing for DR and position
+
 
 <iframe src="assets/hyp2.html" width=800 height=600 frameBorder=0></iframe>
+This is the visual presentation for the hypothesis testing for dpg and position
+
 ---
 
 # **Conclusion**
