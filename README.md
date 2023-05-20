@@ -54,18 +54,9 @@ We realize there's some columns includes missing value that are **not missing at
 ---
 
 To check the Missingness dependency, we pick the one column with non-trivil missingness("golddiffat15") and use permutation test to visualize result.
+<iframe src="assets/dependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
-```py
-print(counts[['Quarter', 'Count']].head().to_markdown(index=True))
-```
-
-| Quarter     |   Count |
-|:------------|--------:|
-| Fall 2020   |       3 |
-| Winter 2021 |       2 |
-| Spring 2021 |       6 |
-| Summer 2021 |       4 |
-| Fall 2021   |      55 |
+<iframe src="assets/notdependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
 ---
 
