@@ -76,7 +76,7 @@ This is a pivot table for position and damage per gold. From this table, we obse
 
 We realize there's some columns includes missing value that are **not missing at random** such as "elemental drakes", "elders", "heralds".etc.  
 
-The data is extracted from Riot's database [Oracle’s Elixir](https://oracleselixir.com/tools/downloads), since the data is official League of Legends competition information. In this case, if a certain data is missing in the dataframe, it indicates that it is not recorded in Riot's database of website. Thus is **NMAR**
+The data is extracted from Riot's database [Oracle’s Elixir](https://oracleselixir.com/tools/downloads), since the data is official League of Legends competition information. In this case, if a certain data is missing in the dataframe, it indicates that it is not recorded in Riot's database of website. Thus is **NMAR**.
 
 ---
 
@@ -94,9 +94,9 @@ We observed a p-value of 1 (> 0.05), which is significantly large. Thus, we fail
 
 <iframe src="assets/notdependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
-Null Hypothesis: Missingness of "golddiffat15" does not depend on position
+==Null Hypothesis: Missingness of "golddiffat15" does not depend on position==
 
-Alternative Hypothesis: Missingness of "golddiffat15" depends on position
+==Alternative Hypothesis: Missingness of "golddiffat15" depends on position==
 
 In this testing, we analyzed if position could be a depending column of the missingness of "golddiffat15".
 We observed a p-value of 0, which is significantly small (< 0.05). Thus, we fail to reject the null hypothesis and conclude that missingness of "golddiffat15" does not depend on position.
@@ -111,13 +111,13 @@ In addition, in order to prevent kills that do not match damage circumstances, a
 
 ---
 
-Our null hypothesis is: Bot lane players have the same DR (Dominance Ratio) and DPG (Damage to Champion per Gold )as the Mid lane players
+==Null hypothesis: Bot lane players have the same DR (Dominance Ratio) and DPG (Damage to Champion per Gold )as the Mid lane players==
 
-μbot = μmid
+==μbot = μmid==
 
-Alternative: Bot lane players have better DR and / or DPG than the Mid lane players
+==Alternative: Bot lane players have better DR and / or DPG than the Mid lane players==
 
-μbot > μmid
+==μbot > μmid==
 
 Test statistics: TVD
 
@@ -141,4 +141,4 @@ From observed data and the permutation distribution we found the p-value is 0.02
 However, for damage per gold, we observed a p-value of 0.076, which is greater than the significance level 0.05, and we fail to reject the null hypothesis in this case and conclude that mid lane players are likely to have the same damage per gold as the bot lane players.
 
 **By just looking at the scoreboard of a player (Kills, Assists), we might observe that bot lane players carry more, as we also carried out a testing on DR. But, in fact, for every gold the two positions earn, the damages they could produce are likely to be similar.**
-**Thus, we conclude that bot lane players do carry more, with their potential better kills and deaths in a game; however, this carry does not necessarily indicate that bot lane players carry more in damage wise.**
+**Thus, we conclude that bot lane players potentially carry more, with their potential better kills and deaths in a game; however, this carry does not necessarily indicate that bot lane players carry more in damage wise.**
