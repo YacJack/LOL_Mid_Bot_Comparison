@@ -22,7 +22,6 @@ As one of the tests to see if the bot lane is the most Carry route, we decided t
 2. KDA is calculated by *Kills + Assists / Deaths*.
 3. DPG represents efficiency of ultilizing gold to deal damage to enemy champion.
 
-
 ---
 
 ## **Cleaning and EDA**
@@ -86,7 +85,7 @@ We observed a p-value of 0, which is significantly small (< 0.05). Thus, we fail
 
 ---
 
-## Hypothesis Testing
+## **Hypothesis Testing**
 
 In order to prevent too many assists from AOE (Damage that is caused by large area spell), since these kind of damage could be done easily by not even aiming, we decided to use DR (dominated ratio 2Kills + 1Assists/ 3Deaths) to calculate the performance of each lane. In addition, in order to prevent kills that do not match damage circumstances, and economic gaps make a difference, we will also compare DPG (Damage to champions / Money spent)
 
@@ -107,7 +106,7 @@ Significance level: 0.05
 <iframe src="assets/hyp2.html" width=800 height=600 frameBorder=0></iframe>
 ---
 
-# Conclusion
+# **Conclusion**
 
 From observed data and the permutation distribution we found the p-value is 0.02, which is below the significance level 0.05, which means difference in DR between mid and bot lane are not likely to occured by chance. It gives potential result that bot lane usually deal more damage and better performance than mid lane.
 However, for damage per gold, we observed a p-value of 0.076, which is greater than the significance level 0.05, and we fail to reject the null hypothesis in this case and conclude that mid lane players are likely to have the same damage per gold as the bot lane players.
