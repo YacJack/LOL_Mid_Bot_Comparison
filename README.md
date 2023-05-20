@@ -1,18 +1,23 @@
-# LOL_Mid_Bot_Comparison
+# **LOL_Mid_Bot_Comparison**
 
 by Shuang Wu (shw076@ucsd.edu) , Yacheng Xiao (yaxiao@ucsd.edu)
 
 ---
 
-## Introduction
+## **Introduction**
 
 ### "This is the version of AD, AD loses, the game is lost" 
-We hear these voices all the time when we play League of Legends with our friends. But is the bottom lane really the key to the outcome of the game? In other words, compared to other lanes such as the jungler and the middle lane, is the bottom lane really usually the most Carry? Compared with the bottom lane, the middle lane often goes to various lanes to help, and the existence of the middle lane is also key to the game. 
-As one of the tests to see if the bot lane is the most Carry route, we decided to compare the bot lane and the mid lane which will carry more. As one of the most competitive leagues, we selected the data of the 2022 LCK game to compare kills. Death, assists and DR, KDA, damage taken/damage per gold to compare which lane is more Carry. In this dataset, we have 1868 rows in total, which includes mid and bot position only. DR represents for Dominance Ratio, calculated by (2*Kills + Assists) / 3*Deaths, which is a comprehensive way to view excellence according to players. KDA is calculated by Kills + Assists / Deaths.
+We hear these voices all the time when we play League of Legends with our friends. But is the bottom lane really the key to the outcome of the game? 
+
+**In other words, compared to other lanes such as the jungler and the middle lane, is the bottom lane really usually the most Carry? Compared with the bottom lane, the middle lane often goes to various lanes to help, and the existence of the middle lane is also key to the game**. 
+
+As one of the tests to see if the bot lane is the most Carry route, we decided to compare the bot lane and the mid lane which will carry more. As one of the most competitive leagues, we selected the data of the **2022 LCK game** to compare kills. Death, assists and DR, KDA, damage taken/damage per gold to compare which lane is more Carry. In this dataset, we have 1868 rows in total, which includes mid and bot position only. 
+1. DR represents for Dominance Ratio, calculated by *(2 x Kills + Assists) / 3 x Deaths*, which is a comprehensive way to view excellence according to players. 
+2. KDA is calculated by *Kills + Assists / Deaths*.
 
 ---
 
-## Cleaning and EDA
+## **Cleaning and EDA**
 ### Univariate Analysis
 <iframe src="assets/kills.html" width=800 height=600 frameBorder=0></iframe>
 
@@ -30,7 +35,7 @@ As one of the tests to see if the bot lane is the most Carry route, we decided t
 
 ---
 
-## Assessment of Missingness
+## **Assessment of Missingness**
 
 Here's what a Markdown table looks like. Note that the code for this table was generated _automatically_ from a DataFrame, using
 
