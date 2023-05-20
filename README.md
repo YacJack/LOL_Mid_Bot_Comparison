@@ -82,5 +82,7 @@ Significance level: 0.05
 
 
 ---
-#Conclusion#
+
+# Conclusion
+
 From both cases, From observed data and the permutation distribution we found significant level are below 0.05 which means difference in DR and DPG between mid and bot lane are not likely to occured by chance. It gives potential result that bot lane usually deal more damage and better performance than mid lane.
