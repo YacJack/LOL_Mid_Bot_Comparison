@@ -84,19 +84,20 @@ The data is extracted from Riot's database [Oracle’s Elixir](https://oraclesel
 
 <iframe src="assets/dependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
-Null Hypothesis: Missingness of "golddiffat15" does not depend on url
+**Null Hypothesis: Missingness of "golddiffat15" does not depend on url**
 
-Alternative Hypothesis: Missingness of "golddiffat15" depends on url
+**Alternative Hypothesis: Missingness of "golddiffat15" depends on url**
 
 In this testing, we analyzed if url could be a depending column of the missingness of "golddiffat15".
+
 We observed a p-value of 1 (> 0.05), which is significantly large. Thus, we fail to reject the null hypothesis and conclude that missingness of "golddiffat15" depend on url.
 
 
 <iframe src="assets/notdependmissing.html" width=800 height=600 frameBorder=0></iframe>
 
-==Null Hypothesis: Missingness of "golddiffat15" does not depend on position==
+**Null Hypothesis: Missingness of "golddiffat15" does not depend on position**
 
-==Alternative Hypothesis: Missingness of "golddiffat15" depends on position==
+**Alternative Hypothesis: Missingness of "golddiffat15" depends on position**
 
 In this testing, we analyzed if position could be a depending column of the missingness of "golddiffat15".
 We observed a p-value of 0, which is significantly small (< 0.05). Thus, we fail to reject the null hypothesis and conclude that missingness of "golddiffat15" does not depend on position.
@@ -111,17 +112,17 @@ In addition, in order to prevent kills that do not match damage circumstances, a
 
 ---
 
-==Null hypothesis: Bot lane players have the same DR (Dominance Ratio) and DPG (Damage to Champion per Gold ) as the Mid lane players==
+**Null hypothesis: Bot lane players have the same DR (Dominance Ratio) and DPG (Damage to Champion per Gold ) as the Mid lane players**
 
-==μbot = μmid==
+*μbot = μmid*
 
-==Alternative: Bot lane players have better DR and / or DPG than the Mid lane players==
+**Alternative: Bot lane players have better DR and / or DPG than the Mid lane players**
 
-==μbot > μmid==
+*μbot > μmid*
 
-Test statistics: TVD
+**Test statistics: TVD**
 
-Significance level: 0.05
+**Significance level: 0.05**
 
 ---
 <iframe src="assets/hyp1.html" width=800 height=600 frameBorder=0></iframe>
