@@ -43,10 +43,14 @@ As one of the tests to see if the bot lane is the most Carry route, we decided t
 
 ## **Assessment of Missingness**
 
-Here's what a Markdown table looks like. Note that the code for this table was generated _automatically_ from a DataFrame, using
+We realize there's some columns includes missing value that are **not missing at random** such as "elemental drakes", "elders", "heralds".etc.  The data is extracted from Riot's database [Oracle’s Elixir](https://oracleselixir.com/tools/downloads), since the data is official League of Legends competition information. In this case, if a certain data is missing in the dataframe, it indicates that it is not recorded in Riot's database of website. Thus is **NMAR**
+
+---
+
+To check the Missingness dependency, we pick the one column with non-trivil missingness("golddiffat15") and use permutation test to visualize result.
 
 ```py
-print(counts[['Quarter', 'Count']].head().to_markdown(index=False))
+print(counts[['Quarter', 'Count']].head().to_markdown(index=True))
 ```
 
 | Quarter     |   Count |
