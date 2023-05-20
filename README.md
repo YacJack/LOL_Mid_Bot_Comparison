@@ -20,7 +20,7 @@ As one of the tests to see if the bot lane is the most Carry route, we decided t
 #### Some terms in columns:
 1. DR represents for Dominance Ratio, calculated by *(2 x Kills + Assists) / 3 x Deaths*, which is a comprehensive way to view excellence according to players. 
 2. KDA is calculated by *Kills + Assists / Deaths*.
-
+3. DPG represents efficiency of ultilizing gold to deal damage to enemy champion.
 ---
 
 ## **Cleaning and EDA**
